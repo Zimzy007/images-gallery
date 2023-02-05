@@ -1,0 +1,7 @@
+PIPENV install issue fixed:
+
+First, remove your current version of virtualenv: pip uninstall virtualenv
+Then, remove your current version of pipenv: pip uninstall pipenv
+When you are asked Proceed (y/n)? just enter y. This will give you a clean slate.
+Finally, you can once again install pipenv and its dependencies: pip install pipenv
+Check installation with pipenv --version
